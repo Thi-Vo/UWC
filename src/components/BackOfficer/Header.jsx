@@ -62,7 +62,7 @@ const Header = () => {
               </div>
               <ul className="list">
                 <li>
-                  <NavLink to="/home/backofficer">Home Page 1</NavLink>
+                  <NavLink to="/home/backofficer">Home Page</NavLink>
                 </li>
                 <li>
                   <a href="#">View Information</a>

@@ -1,46 +1,18 @@
-// import React from "react";
+import React from "react";
 // import GeneralHeader from "@utils/GeneralHeader";
 // import Member from "@components/Staffs/Member";
-// import { Container } from "./Staffs.styled";
+import { Container } from "./Staffs.styled";
+import { Header } from "~/components";
+import { List } from "~/components";
 
-// const Staffs = (props) => {
-//   return (
-//     <div>
-//       <GeneralHeader type={props.type} />
-//       <Container>
-//         <Member
-//           job="Janitor"
-//           name="Kevin Martin"
-//           url="/images/member/member-1.jpg"
-//         />
-//         <Member
-//           job="Janitor"
-//           name="Jessica Brown"
-//           url="/images/member/member-2.jpg"
-//         />
-//         <Member
-//           job="Janitor"
-//           name="David Cooper"
-//           url="/images/member/member-3.jpg"
-//         />
-//         <Member
-//           job="Collector"
-//           name="Sarah Albert"
-//           url="/images/member/member-4.jpg"
-//         />
-//         <Member
-//           job="Collector"
-//           name="Mike Hardson"
-//           url="/images/member/member-5.jpg"
-//         />
-//         <Member
-//           job="Collector"
-//           name="Christine Eve"
-//           url="/images/member/member-6.jpg"
-//         />
-//       </Container>
-//     </div>
-//   );
-// };
+const Staffs = () => {
+  return (
+    <div>
+      <Header></Header>
+      <List>
+      </List>
+    </div>
+  );
+};
 
-// export default Staffs;
+export default Staffs;

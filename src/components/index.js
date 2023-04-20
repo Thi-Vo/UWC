@@ -6,3 +6,4 @@ export { default as Home } from "@components/Home/Home";
 export { default as ChatButton} from "@components/ChatBox/ChatButton"
 export { default as ListChat} from "@components/ChatBox/ListChat"
 export { default as MessageBox} from "@components/ChatBox/MessageBox"
+export { default as List} from "@components/Staff/List_view"
