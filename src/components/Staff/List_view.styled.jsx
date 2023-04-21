@@ -4,27 +4,23 @@ import styled from "styled-components";
 export const Split = styled.div`
     width: 2px;
     height: 100%;
-    background-color: #c1c1c1;
+    background-color: #c3c4c1;
+    min-height: 100vh;
 `;
 export const LeftColumn = styled.div`
-    // background-color: #f2f2f2;
-    // left: 0
-    // // flex-grow: 4;
-    // padding: 10px;
-    width: 50%;
+    padding: 10px;
+    width: 75%;
     height: 100%;
     background-color: #f2f2f2;
+    align-items: center;
 `;
 
 export const RightColumn = styled.div`
-    // background-color: #f3b343;
-    // right: 0
-    // // flex-grow: 1;
-    // border-left: 2px solid #ccc;
-    // padding: 10px;
-    width: 50%;
+    padding: 10px;
+    width: 25%;
     height: 100%;
     background-color: #ffffff;
+    justify-content: center;
 `;
 
 export const Container = styled.div`
@@ -33,5 +29,5 @@ export const Container = styled.div`
   padding: 20px;
   position: relative;
   width: 100%;
-  flex-wrap: wrap;
+  height: 100%
 `;

@@ -8,7 +8,7 @@ import { List } from "~/components";
 const Staffs = () => {
   return (
     <div>
-      <Header></Header>
+      <Header />
       <List>
       </List>
     </div>
